@@ -3,7 +3,8 @@
   Created by Germán Valero. 17 de November del 2017.
   Dangersolutions@gmail.com - http://www.dangersolutions.es/
 
-   This example shows how to control the Ds_Regulator shield of DangerSolutions
+  - This example shows how to control the Ds_Regulator shield of DangerSolutions
+   
 #  Set up Outputs:
 Set te Arduino Outputs to connect Ds_Regulator
 Regulator Regulator(8, 9, 10, 11);
