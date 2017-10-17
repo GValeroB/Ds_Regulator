@@ -15,17 +15,15 @@ Set te Arduino Outputs to connect Ds_Regulator
      * Conect Pin 11 Arduino to Pin 4 Ds_Regulator Shield.
 # Functions:
 - Regulator.Up();
-
-     * Up one point the regulation
- 
-Regulator.Down();
-        - Down one point the regulation
- Regulator.On();
-        - Set the regulation On.
-  Regulator.Off();
-        - Set the regulation Off.
- Regulator.SetPoint(NewValue);
-        - Changue the value of Setpoint.
+     * Up one point the regulation 
+- Regulator.Down();
+     * own one point the regulation
+ - Regulator.On();
+     * Set the regulation On.
+  - Regulator.Off();
+     * Set the regulation Off.
+ - Regulator.SetPoint(NewValue);
+     * Changue the value of Setpoint.
  Variables:
   int ReadValue=Regulator.Value;
 */
